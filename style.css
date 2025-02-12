@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Liter&display=swap');
+
+body{
+    width: 100vw;
+    font-family: "Liter", serif;
+}
+
+#superior{
+    display: flex;
+    width: 100vw;
+    height: 5.5vh;
+    background-color: rgb(22, 22, 96);
+    color: white;
+    justify-content: space-around;
+    font-size: 11px;
+}
+
+#superior i{
+    color: rgb(245, 201, 3);
+    align-items: center;
+}
+
+#esquerda{
+    display: flex;
+    width: 100vw;
+    height: 7.5vh;
+    align-items: center;
+    gap: 1.8vw;
+    margin-left: 3vw;
+}
+
+#esquerda i{
+    display: flex;
+    height: 2.5vh;
+}
+
+.informa{
+    display: flex;
+    gap: 0.5vw;
+}
+
+#direita{
+    display: flex;
+    width: 23vw;
+    height: 7.5vh;
+    align-items: center;
+    text-align: end;
+    gap: 1.5vw;
+}
+
+#direita i{
+    display: flex;
+    height: 2.5vh;
+}
+
+.numero{
+    display: flex;
+    gap: 0.5vw;
+}
+
+.marcas{
+    display: flex;
+    height: 4.5vh;
+    gap: 1.5vw;
+}
+
+.marcas a{
+    text-decoration: none;
+}
+
+#div-pai{
+    display: flex;
+    width: 100vw;
+    height: 7vh;
+    align-items: center;
+    font-size: 12px;
+}
+
+.logotipo{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    gap: 0.5vw;
+    margin-left: 2.5vw;
+}
+
+.logotipo i{
+    font-size: 17.5px;
+    color: rgb(245, 201, 3);
+}
+
+.home{
+    display: flex;
+    width: 100vw;
+    gap: 1.5vw;
+    margin-left: 59vw;
+    align-items: center;
+}
+
+.amarelo a{
+    color: rgb(245, 201, 3) !important;
+}
+
+.home a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.botao button{
+    display: flex;
+    width: 10.5vw;
+    height: 7vh;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vw;
+    border: none;
+    color: white;
+    background-color: rgb(245, 201, 3);
+}
+
+.carousel{
+    width: 100vw;
+}
+
+.text img{
+    width: 100vw;
+    height: 90vh;
+}
+
+.text{
+    position: relative;
+}
+
+.texto{
+    position: absolute;
+    top: 50%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+}
+
+.texto p{
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 6vh;
+}
+
+.botoes-2{
+    display: flex;
+    width: 30vw;
+    justify-content: center;
+    margin-top: 6vh;
+    gap: 1vw;
+}
+
+.botaoesquerdo{
+    border: none;
+    background-color: rgb(245, 201, 3);
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+}
+
+.botoes-2 button{
+    display: flex;
+    width: 9vw;
+    height: 5.5vh;
+}
+
+.botaodireito{
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+}
+
+.global-4{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 70vh;
+    background-color: aqua;
+}
+
+.divesquerda{
+    display: flex;
+    width: 35vw;
+    height: 32vh;
+    background-color: aliceblue;
+}
+
+.titulos{
+    display: flex;
+    flex-direction: column;
+    line-height: 5vh;
+}
+
+.titulos h5{
+    color: rgb(245, 201, 3);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.titulos h3{
+    color: black;
+    font-weight: 700;
+}
+
+.titulos h6{
+    color: gray;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 1.5vh;
+}
+
+.divesqinf{
+    display: flex;
+    width: 35vw;
+    height: 32vh;
+    background-color: aquamarine;
+}
+
+.divesqinf-2{
+    display: flex;
+    width: 35vw;
+    height: 32vh;
+    background-color: aquamarine;
+}
+
+.divesqinf i{
+    color: rgb(245, 201, 3);
+}
+
+.divesqinf-2 i{
+    color: rgb(245, 201, 3);
+}
+
+.imgmaior img{
+    width: 28vw;
+    height: 40vh;
+}
+
+.imgmenor img{
+    width: 9vw;
+    height: 15vh;
+}
